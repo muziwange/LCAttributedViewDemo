@@ -15,6 +15,8 @@
 		A004BE6B228D7AE00056E2C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A004BE6A228D7AE00056E2C1 /* main.m */; };
 		A004BE75228D7BA40056E2C1 /* HNNoPastTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A004BE71228D7BA40056E2C1 /* HNNoPastTextView.m */; };
 		A004BE76228D7BA40056E2C1 /* HNSignPrivacyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A004BE73228D7BA40056E2C1 /* HNSignPrivacyAlertView.m */; };
+		A0E9C81B22C9B1D700F5DA0D /* LCLableCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E9C81822C9B1D700F5DA0D /* LCLableCalculate.m */; };
+		A0E9C81C22C9B1D700F5DA0D /* UILabel+LCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E9C81A22C9B1D700F5DA0D /* UILabel+LCHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		A004BE72228D7BA40056E2C1 /* HNSignPrivacyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNSignPrivacyAlertView.h; sourceTree = "<group>"; };
 		A004BE73228D7BA40056E2C1 /* HNSignPrivacyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNSignPrivacyAlertView.m; sourceTree = "<group>"; };
 		A004BE74228D7BA40056E2C1 /* HNNoPastTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNNoPastTextView.h; sourceTree = "<group>"; };
+		A0E9C81722C9B1D700F5DA0D /* LCLableCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLableCalculate.h; sourceTree = "<group>"; };
+		A0E9C81822C9B1D700F5DA0D /* LCLableCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLableCalculate.m; sourceTree = "<group>"; };
+		A0E9C81922C9B1D700F5DA0D /* UILabel+LCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LCHelper.h"; sourceTree = "<group>"; };
+		A0E9C81A22C9B1D700F5DA0D /* UILabel+LCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LCHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,7 @@
 		A004BE4F228D7AD00056E2C1 = {
 			isa = PBXGroup;
 			children = (
+				A0E9C81622C9B1D700F5DA0D /* LCLabelHelper */,
 				A004BE5A228D7AD00056E2C1 /* LCAttributedViewDemo */,
 				A004BE59228D7AD00056E2C1 /* Products */,
 			);
@@ -79,6 +86,17 @@
 				A004BE6A228D7AE00056E2C1 /* main.m */,
 			);
 			path = LCAttributedViewDemo;
+			sourceTree = "<group>";
+		};
+		A0E9C81622C9B1D700F5DA0D /* LCLabelHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A0E9C81722C9B1D700F5DA0D /* LCLableCalculate.h */,
+				A0E9C81822C9B1D700F5DA0D /* LCLableCalculate.m */,
+				A0E9C81922C9B1D700F5DA0D /* UILabel+LCHelper.h */,
+				A0E9C81A22C9B1D700F5DA0D /* UILabel+LCHelper.m */,
+			);
+			path = LCLabelHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E9C81C22C9B1D700F5DA0D /* UILabel+LCHelper.m in Sources */,
+				A0E9C81B22C9B1D700F5DA0D /* LCLableCalculate.m in Sources */,
 				A004BE75228D7BA40056E2C1 /* HNNoPastTextView.m in Sources */,
 				A004BE76228D7BA40056E2C1 /* HNSignPrivacyAlertView.m in Sources */,
 				A004BE60228D7AD00056E2C1 /* ViewController.m in Sources */,
